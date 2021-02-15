@@ -1,4 +1,4 @@
-# useless
+# Useless Framework
 Useless is a multi-platform (iOS, Android, Desktop, Web) framework for developing extremely simple applications
 
 Existing frameworks are very powerful, but they have many downsides.
