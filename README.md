@@ -12,13 +12,13 @@ Existing frameworks are very powerful, but they have many downsides.
 
 Useless is different from the above "single codebase" frameworks in that Useless apps compile to Swift for iOS, Java for Android, and HTML/JS/CSS for Web. That is, it uses the code that works the most efficiently for each individual platform.
 
-The trade-off or downside of Useless is that only a very specific subset of functionality is available. Useless is only good for the most basic, brain-dead application you can imagine. All Useless applications have:
+The trade-off or downside of Useless is that only a very specific subset of functionality is available. Useless is only good for the most basic, brain-dead application you can imagine. For such basic applications, all three of the above frameworks are definitely overkill. All Useless applications have:
 
 * A menu from a hamburger button
 * A screen per menu item
 * A screen can be text, form, or a list of items
 
-That's pretty much it. No fancy widgets. No 60 fps animations. No "WebView" nonsense. No bridges or canvases. Just multiple platforms from a single codebase.
+That's pretty much it. No fancy widgets. No 60 fps animations. No "WebView" nonsense. No bridges or canvases. Just multiple platforms from a single codebase. If you need an app that needs to do something more than this basic functionality, it is recommended that you use one of the full-fledged frameworks instead.
 
 ## Usage
 
