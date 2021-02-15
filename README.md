@@ -1,6 +1,6 @@
 # Useless Framework
 
-Useless is a code-generation framework for extremely simple applications that will run natively on multi-platforms: iOS, Android, Desktop, and Web.
+Useless is a code-generation framework for extremely simple applications that will run natively on multi-platforms: iOS, Android, Desktop (TBD), and Web.
 
 Existing frameworks are very powerful, but they have many downsides.
 
@@ -19,3 +19,17 @@ The trade-off or downside of Useless is that only a very specific subset of func
 * A screen can be text, form, or a list of items
 
 That's pretty much it. No fancy widgets. No 60 fps animations. No "WebView" nonsense. No bridges or canvases. Just multiple platforms from a single codebase.
+
+## Usage
+
+First, clone the repo.
+
+Next, build the app by running `make`.
+
+When the app is done building, it will have generated 3 apps for you in 3 different folders: iOS, Android, and PWA (web).
+
+Compile the iOS app, compile the Android app, and deploy the web app.
+
+You're done.
+
+If you need to change something, such as the menu, etc. you can view the application source under the `src` directory. The files in the `lib` directory contain the Useless code generation tools.
